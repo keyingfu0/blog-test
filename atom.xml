@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://keyingfu0.github.io/blog-test</id>
     <title>Gridea</title>
-    <updated>2019-10-16T09:40:39.537Z</updated>
+    <updated>2019-10-16T09:41:56.365Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://keyingfu0.github.io/blog-test"/>
     <link rel="self" href="https://keyingfu0.github.io/blog-test/atom.xml"/>
@@ -10,6 +10,23 @@
     <logo>https://keyingfu0.github.io/blog-test/images/avatar.png</logo>
     <icon>https://keyingfu0.github.io/blog-test/favicon.ico</icon>
     <rights>All rights reserved 2019, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[webpack实践.md]]></title>
+        <id>https://keyingfu0.github.io/blog-test/post/webpack实践</id>
+        <link href="https://keyingfu0.github.io/blog-test/post/webpack实践">
+        </link>
+        <updated>2019-08-14T07:54:39.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="bundle-spliting-和-code-spliting">bundle spliting 和 code spliting</h2>
+<p>分别是:</p>
+<ul>
+<li><code>splitChunks</code></li>
+<li>动态导入<code>import()</code></li>
+</ul>
+<p>配置为<code>splitChunks: initial</code>,这样所有同样的动态导入会打包为一起,所有相同的非动态导入会打包到一起,只有那种既有动态又有非动态的会被分开(所以要避免这样)</p>
+<p>参考<code>vue-cli</code>的实际配置</p>
+<p><a href="https://medium.com/dailyjs/webpack-4-splitchunks-plugin-d9fbbe091fd0">Webpack 4 — Mysterious SplitChunks Plugin - DailyJS - Medium</a>,&quot;icons&quot;:&quot;https://cdn-static-1.medium.com/_/fp/icons/favicon-rebrand-medium.3Y6xpZ-0FSdWDnPM3hSBIA.ico&quot;</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello]]></title>
         <id>https://keyingfu0.github.io/blog-test/post/hello</id>
